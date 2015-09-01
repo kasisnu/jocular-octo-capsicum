@@ -1,3 +1,3 @@
 FROM ubuntu:trusty
 
-RUN echo 'test' > /tmp/test
+RUN echo test $(date) > /tmp/test
